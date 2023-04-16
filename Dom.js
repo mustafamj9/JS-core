@@ -9,4 +9,4 @@ console.log(document);
 // document.body.style.backgroundColor = "blue"
 
 // BOM
-location.href = "http://localhost"
+// location.href = "http://localhost"
