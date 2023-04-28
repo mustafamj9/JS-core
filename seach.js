@@ -10,3 +10,9 @@ document.addEventListener("DOMContentLoaded", function() {
     a.style.color = "yellow";
   });
   
+
+  // browser do auto correction but if you raw code this will not do auto correction
+
+  Array.from(document.getElementsByClassName("nav-item")).forEach((element)=>{
+    element.style.background = "blue";
+  })
